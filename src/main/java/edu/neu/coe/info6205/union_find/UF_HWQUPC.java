@@ -211,6 +211,7 @@ public class UF_HWQUPC implements UF {
             int conn = 0;
             for (int j = 0; j < 20; j++) {
                 conn += count(i);
+                //测试！
             }
             System.out.println("Connections of n " + i + " are " + conn / 20);
         }
