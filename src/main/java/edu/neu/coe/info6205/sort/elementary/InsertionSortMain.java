@@ -68,9 +68,8 @@ public class InsertionSortMain {
                 insertionSort.sort(array.clone(),0, array.length);
             });
             double time = benchmark.run(true,10);
-            return benchmark.run(true,10);
+            return time;
         }
-
 
         public static void main(String[] args){
             int[] test = {500,1000,2000,4000,8000,16000,32000,64000};
